@@ -4,7 +4,6 @@ services:
   database:
     image: postgres
     container_name: ignite-challenge-database-queries
-    restart: always
     ports:
       - 5432:5432
     environment:
