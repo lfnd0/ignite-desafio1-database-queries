@@ -3,7 +3,7 @@ version: "3.9"
 services:
   database:
     image: postgres
-    container_name: ignite-challenge-database-queries
+    container_name: ignite-desafio-database-queries
     ports:
       - 5432:5432
     environment:
